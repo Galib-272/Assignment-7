@@ -33,7 +33,7 @@ function App() {
       <div className="min-h-screen flex flex-col bg-[#f8fafc] font-sans">
         <Toaster position="top-right" />
         <Navbar />
-        <main className="flex-grow">
+        <main className="grow">
           <Routes>
             <Route
               path="/"

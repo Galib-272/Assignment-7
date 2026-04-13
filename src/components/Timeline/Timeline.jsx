@@ -68,7 +68,7 @@ const Timeline = ({ timeline }) => {
                 key={entry.entryId}
                 className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 flex items-center gap-5 animate-in fade-in duration-300"
               >
-                <div className="w-14 h-14 bg-gray-50 border border-gray-100 rounded-2xl flex-shrink-0 flex items-center justify-center p-3">
+                <div className="w-14 h-14 bg-gray-50 border border-gray-100 rounded-2xl shrink-0 flex items-center justify-center p-3">
                   <img
                     src={getIcon(entry.type)}
                     alt={entry.type}
