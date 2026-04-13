@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Import Geist Font (using Google Fonts or Vercel's CDN) */
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+@theme {
+  --font-geist: "Geist", sans-serif;
+  --color-brand-dark: #244d3f;
+  --color-brand-slate: #64748b;
+}
+
+:root {
+  font-family: "Geist", sans-serif;
+}
+
+body {
+  font-family: "Geist", sans-serif;
+  background-color: #f8fafc; /* Matches your Figma background */
+}
+@plugin "daisyui";

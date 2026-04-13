@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emma.wilson@email.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["FAMILY", "TRAVEL"],
+    "bio": "Former colleague, great mentor. We bonded over career advice and coffee.",
+    "goal": 30,
+    "next_due_date": "Feb 27, 2026"
+  },
+  {
+    "id": 2,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "david.kim@email.com",
+    "days_since_contact": 62,
+    "status": "almost due",
+    "tags": ["WORK"],
+    "bio": "Work colleague from marketing team. Loves photography and travel.",
+    "goal": 45,
+    "next_due_date": "May 10, 2026"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "lisa.nakamura@email.com",
+    "days_since_contact": 62,
+    "status": "on-track",
+    "tags": ["WORK"],
+    "bio": "Current teammate and friend. We often discuss design systems and books.",
+    "goal": 30,
+    "next_due_date": "Apr 20, 2026"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/45.jpg",
+    "email": "james.wright@email.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "Travel buddy from last year's Thailand trip.",
+    "goal": 60,
+    "next_due_date": "Mar 15, 2026"
+  },
+  {
+    "id": 5,
+    "name": "Aisha Patel",
+    "picture": "https://randomuser.me/api/portraits/women/22.jpg",
+    "email": "aisha.patel@email.com",
+    "days_since_contact": 21,
+    "status": "on-track",
+    "tags": ["COLLEGE"],
+    "bio": "College best friend. We still share memes regularly.",
+    "goal": 14,
+    "next_due_date": "Apr 25, 2026"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/67.jpg",
+    "email": "marcus.j@email.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["WORK" , "GYM"],
+    "bio": "Senior developer at previous company.",
+    "goal": 30,
+    "next_due_date": "Apr 18, 2026"
+  },
+  {
+    "id": 7,
+    "name": "Sarah Chen",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sarah.c@email.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["NEIGHBOR"],
+    "bio": "Kind neighbor who loves gardening.",
+    "goal": 14,
+    "next_due_date": "Apr 28, 2026"
+  },
+  {
+    "id": 8,
+    "name": "Tom Baker",
+    "picture": "https://randomuser.me/api/portraits/men/88.jpg",
+    "email": "tom.b@email.com",
+    "days_since_contact": 90,
+    "status": "overdue",
+    "tags": ["CHILDHOOD"],
+    "bio": "Old friend from primary school.",
+    "goal": 60,
+    "next_due_date": "Jan 12, 2026"
+  },
+  {
+    "id": 9,
+    "name": "Olivia Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "olivia.m@email.com",
+    "days_since_contact": 40,
+    "status": "almost due",
+    "tags": ["GYM"],
+    "bio": "Workout partner and health enthusiast.",
+    "goal": 45,
+    "next_due_date": "Apr 15, 2026"
+  },
+  {
+    "id": 10,
+    "name": "Ryan O'Brien",
+    "picture": "https://randomuser.me/api/portraits/men/10.jpg",
+    "email": "ryan.ob@email.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["WORK"],
+    "bio": "New team lead. Very supportive.",
+    "goal": 7,
+    "next_due_date": "Apr 20, 2026"
+  }
+]
