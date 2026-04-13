@@ -14,7 +14,7 @@ const Stats = ({ timeline }) => {
     { name: "Video", value: timeline.filter((t) => t.type === "Video").length },
   ].filter((d) => d.value > 0);
 
-  const COLORS = ["#8b5cf6", "#1E293B", "#27AE60"];
+  const COLORS = ["#7C3AED", "#334E4E", "#5FA471"];
 
   return (
     <div className="max-w-4xl mx-auto p-10 font-geist bg-[#F8FAFC]">
@@ -22,8 +22,8 @@ const Stats = ({ timeline }) => {
         Friendship Analytics
       </h1>
 
-      <div className="bg-white rounded-[24px] shadow-sm p-10 border border-gray-100 flex flex-col items-center">
-        <h2 className="text-sm font-black uppercase tracking-widest text-[#1E293B] self-start mb-10">
+      <div className="bg-white rounded-[24px] shadow-sm p-10 pb-6 border border-gray-100 flex flex-col items-center">
+        <h2 className="text-sm font-black uppercase tracking-widest text-[#1E293B] self-start mb-6">
           By Interaction Type
         </h2>
         
@@ -56,8 +56,14 @@ const Stats = ({ timeline }) => {
               />
               <Legend 
                 verticalAlign="bottom" 
-                height={36} 
-                formatter={(value) => <span className="text-[#1E293B] font-bold px-2">{value}</span>}
+                align="center"
+                iconType="circle"
+                iconSize={12}
+                formatter={(value) => (
+                  <span className="text-[#64748B] font-bold text-lg px-2">
+                    {value}
+                  </span>
+                )}
               />
             </PieChart>
           </ResponsiveContainer>

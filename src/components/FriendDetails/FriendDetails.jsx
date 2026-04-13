@@ -34,7 +34,6 @@ const FriendDetails = ({ friends, addTimelineEntry }) => {
 
   return (
     <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-3 gap-8 py-12 font-geist">
-      {/* Left Column: Profile Card */}
       <div className="lg:col-span-1">
         <div className="bg-white rounded-[24px] shadow-sm border border-gray-100 p-8 text-center">
           <img
@@ -80,7 +79,6 @@ const FriendDetails = ({ friends, addTimelineEntry }) => {
         </div>
       </div>
 
-      {/* Right Column: Stats & Actions */}
       <div className="lg:col-span-2 space-y-6">
         <div className="grid grid-cols-3 gap-4">
           <div className="bg-white p-6 rounded-[24px] shadow-sm border border-gray-100 text-center">
@@ -107,7 +105,6 @@ const FriendDetails = ({ friends, addTimelineEntry }) => {
           </div>
         </div>
 
-        {/* Relationship Goal Section */}
         <div className="bg-white p-8 rounded-[24px] shadow-sm border border-gray-100">
           <div className="flex justify-between items-center mb-4">
             <h3 className="font-black text-[#1E293B] uppercase tracking-widest text-xs">

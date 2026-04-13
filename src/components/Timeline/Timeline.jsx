@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-// Importing your specific images
 import callImg from "../../assets/call.png";
 import textImg from "../../assets/text.png";
 import videoImg from "../../assets/video.png";
@@ -28,14 +27,12 @@ const Timeline = ({ timeline }) => {
 
   return (
     <div className="bg-[#F8FAFC] min-h-screen font-geist">
-      {/* Page Header - Removed bg-white and border-b */}
       <div className="pt-12 pb-4 px-8 md:px-12">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl font-extrabold text-[#1E293B] mb-6 tracking-tighter">
             Timeline
           </h1>
 
-          {/* Filter Dropdown */}
           <div className="relative w-full max-w-[280px]">
             <select
               className="w-full appearance-none bg-white border border-gray-200 rounded-lg px-4 py-2.5 text-gray-500 font-medium focus:outline-none focus:ring-2 focus:ring-gray-100 transition-all cursor-pointer shadow-sm"
@@ -64,15 +61,13 @@ const Timeline = ({ timeline }) => {
       </div>
 
       <div className="max-w-7xl mx-auto p-8 md:p-12">
-        {/* Timeline List */}
         <div className="space-y-4">
           {filteredTimeline && filteredTimeline.length > 0 ? (
             [...filteredTimeline].reverse().map((entry) => (
               <div
-                key={entry.id}
+                key={entry.entryId}
                 className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 flex items-center gap-5 animate-in fade-in duration-300"
               >
-                {/* Icon Section */}
                 <div className="w-14 h-14 bg-gray-50 border border-gray-100 rounded-2xl flex-shrink-0 flex items-center justify-center p-3">
                   <img
                     src={getIcon(entry.type)}
@@ -81,12 +76,12 @@ const Timeline = ({ timeline }) => {
                   />
                 </div>
 
-                {/* Text Content Section */}
                 <div className="flex flex-col">
                   <div className="flex items-baseline gap-1.5">
                     <h3 className="text-lg font-extrabold text-[#1E293B]">
                       {entry.type}
                     </h3>
+
                     <p className="text-sm font-medium text-gray-500">
                       with{" "}
                       <span className="font-bold text-gray-700">
@@ -94,6 +89,7 @@ const Timeline = ({ timeline }) => {
                       </span>
                     </p>
                   </div>
+
                   <div className="text-sm font-bold text-gray-400">
                     {entry.date}
                   </div>
