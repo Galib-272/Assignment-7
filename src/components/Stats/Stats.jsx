@@ -26,48 +26,56 @@ const Stats = ({ timeline }) => {
         <h2 className="text-sm font-black uppercase tracking-widest text-[#1E293B] self-start mb-6">
           By Interaction Type
         </h2>
-        
-        <div className="h-80 w-full">
-          <ResponsiveContainer width="100%" height="100%">
-            <PieChart>
-              <Pie
-                data={data}
-                innerRadius={70}
-                outerRadius={100}
-                paddingAngle={8}
-                dataKey="value"
-                stroke="none"
-              >
-                {data.map((entry, index) => (
-                  <Cell
-                    key={`cell-${index}`}
-                    fill={COLORS[index % COLORS.length]}
-                  />
-                ))}
-              </Pie>
-              <Tooltip 
-                contentStyle={{ 
-                  backgroundColor: '#fff', 
-                  borderRadius: '12px', 
-                  border: '1px solid #f1f5f9',
-                  color: '#1E293B',
-                  fontWeight: 'bold'
-                }} 
-              />
-              <Legend 
-                verticalAlign="bottom" 
-                align="center"
-                iconType="circle"
-                iconSize={12}
-                formatter={(value) => (
-                  <span className="text-[#64748B] font-bold text-lg px-2">
-                    {value}
-                  </span>
-                )}
-              />
-            </PieChart>
-          </ResponsiveContainer>
-        </div>
+
+        {data.length > 0 ? (
+          <div className="h-80 w-full">
+            <ResponsiveContainer width="100%" height="100%">
+              <PieChart>
+                <Pie
+                  data={data}
+                  innerRadius={70}
+                  outerRadius={100}
+                  paddingAngle={8}
+                  dataKey="value"
+                  stroke="none"
+                >
+                  {data.map((entry, index) => (
+                    <Cell
+                      key={`cell-${index}`}
+                      fill={COLORS[index % COLORS.length]}
+                    />
+                  ))}
+                </Pie>
+                <Tooltip
+                  contentStyle={{
+                    backgroundColor: "#fff",
+                    borderRadius: "12px",
+                    border: "1px solid #f1f5f9",
+                    color: "#1E293B",
+                    fontWeight: "bold",
+                  }}
+                />
+                <Legend
+                  verticalAlign="bottom"
+                  align="center"
+                  iconType="circle"
+                  iconSize={12}
+                  formatter={(value) => (
+                    <span className="text-[#64748B] font-bold text-lg px-2">
+                      {value}
+                    </span>
+                  )}
+                />
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
+        ) : (
+          <div className="w-full p-20 text-center rounded-2xl">
+            <p className="text-gray-400 font-bold">
+              No interactions logged yet.
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
