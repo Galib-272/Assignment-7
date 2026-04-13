@@ -1,16 +1,22 @@
-# React + Vite
+# KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a personal relationship manager designed to help you maintain meaningful connections. In a fast-paced world, it’s easy to lose touch with the people who matter most. KeenKeeper keeps your circle close by tracking interactions and reminding you when it's time to reach out.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Frontend**: React.js with React Router for seamless navigation.
+* **Styling**: Tailwind CSS for a modern, responsive "soft-UI" design.
+* **Charts**: Recharts for visualizing friendship interaction data.
+* **Icons**: React Icons (FontAwesome) for an intuitive interface.
+* **Notifications**: React Hot Toast for real-time feedback.
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Smart Interaction Tracking
+Log every call, text, or video chat with your friends. The app calculates "Days Since Contact" and compares it against your custom goals to keep you on track.
 
-## Expanding the ESLint configuration
+### 2. Friendship Analytics
+Visualize your relationship habits with a dynamic analytics dashboard. See a breakdown of how you communicate (Text vs. Call vs. Video) through beautiful, interactive pie charts.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Responsive Timeline & Check-ins
+A dedicated timeline stores your full interaction history. On mobile or desktop, you can perform "Quick Check-ins" and manage your friendship goals through a fully responsive, hamburger-menu-powered interface.
