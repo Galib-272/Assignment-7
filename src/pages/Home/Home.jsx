@@ -18,7 +18,6 @@ const Home = ({ friends, loading }) => {
           style={{ color: "#244D3F" }}
           className="text-5xl font-extrabold mb-4 tracking-tight"
         >
-          adfdff. kl;jkj poiouiu <br />
           Friends to keep close in your life
         </h1>
 
