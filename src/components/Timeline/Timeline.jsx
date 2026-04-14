@@ -33,7 +33,7 @@ const Timeline = ({ timeline }) => {
             Timeline
           </h1>
 
-          <div className="relative w-full max-w-[280px]">
+          <div className="relative w-full max-w-70">
             <select
               className="w-full appearance-none bg-white border border-gray-200 rounded-lg px-4 py-2.5 text-gray-500 font-medium focus:outline-none focus:ring-2 focus:ring-gray-100 transition-all cursor-pointer shadow-sm"
               value={filter}

@@ -35,7 +35,7 @@ const FriendDetails = ({ friends, addTimelineEntry }) => {
   return (
     <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-3 gap-8 py-12 font-geist">
       <div className="lg:col-span-1">
-        <div className="bg-white rounded-[24px] shadow-sm border border-gray-100 p-8 text-center">
+        <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 text-center">
           <img
             src={friend.picture}
             alt={friend.name}
@@ -81,7 +81,7 @@ const FriendDetails = ({ friends, addTimelineEntry }) => {
 
       <div className="lg:col-span-2 space-y-6">
         <div className="grid grid-cols-3 gap-4">
-          <div className="bg-white p-6 rounded-[24px] shadow-sm border border-gray-100 text-center">
+          <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 text-center">
             <p className="text-4xl font-black text-[#1E293B]">
               {friend.days_since_contact}
             </p>
@@ -89,13 +89,13 @@ const FriendDetails = ({ friends, addTimelineEntry }) => {
               Days Since Contact
             </p>
           </div>
-          <div className="bg-white p-6 rounded-[24px] shadow-sm border border-gray-100 text-center">
+          <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 text-center">
             <p className="text-4xl font-black text-[#1E293B]">{friend.goal}</p>
             <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">
               Goal (Days)
             </p>
           </div>
-          <div className="bg-white p-6 rounded-[24px] shadow-sm border border-gray-100 text-center">
+          <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 text-center">
             <p className="text-2xl font-black text-[#1E293B] mb-1">
               {friend.next_due_date}
             </p>
@@ -105,7 +105,7 @@ const FriendDetails = ({ friends, addTimelineEntry }) => {
           </div>
         </div>
 
-        <div className="bg-white p-8 rounded-[24px] shadow-sm border border-gray-100">
+        <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
           <div className="flex justify-between items-center mb-4">
             <h3 className="font-black text-[#1E293B] uppercase tracking-widest text-xs">
               Relationship Goal
@@ -122,7 +122,7 @@ const FriendDetails = ({ friends, addTimelineEntry }) => {
           </p>
         </div>
 
-        <div className="bg-white p-8 rounded-[24px] shadow-sm border border-gray-100">
+        <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
           <h3 className="font-black text-[#1E293B] mb-6 uppercase tracking-widest text-xs">
             Quick Check-In
           </h3>
