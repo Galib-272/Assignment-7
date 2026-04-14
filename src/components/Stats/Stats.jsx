@@ -22,7 +22,7 @@ const Stats = ({ timeline }) => {
         Friendship Analytics
       </h1>
 
-      <div className="bg-white rounded-[24px] shadow-sm p-10 pb-6 border border-gray-100 flex flex-col items-center">
+      <div className="bg-white rounded-3xl shadow-sm p-10 pb-6 border border-gray-100 flex flex-col items-center">
         <h2 className="text-sm font-black uppercase tracking-widest text-[#1E293B] self-start mb-6">
           By Interaction Type
         </h2>

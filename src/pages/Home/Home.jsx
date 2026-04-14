@@ -5,8 +5,9 @@ const Home = ({ friends, loading }) => {
 
   if (loading)
     return (
-      <div className="flex justify-center items-center h-96">
-        <span className="loading loading-spinner loading-lg text-[#334e4e]"></span>
+      <div className="flex flex-col justify-center items-center h-[70vh] gap-4 font-geist">
+        <span className="loading loading-spinner loading-lg text-[#244D3F]"></span>
+        <p className="text-sm font-bold text-gray-400 tracking-widest">Loading friends...</p>
       </div>
     );
 
@@ -51,7 +52,6 @@ const Home = ({ friends, loading }) => {
             className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm text-center"
           >
             <div className="text-3xl font-black text-gray-800">{s.val}</div>
-
             <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">
               {s.label}
             </div>
@@ -66,7 +66,7 @@ const Home = ({ friends, loading }) => {
           <div
             key={f.id}
             onClick={() => navigate(`/friend/${f.id}`)}
-            className="bg-white rounded-[24px] border border-gray-100 shadow-sm hover:shadow-lg transition-all cursor-pointer p-8 text-center flex flex-col items-center"
+            className="bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-lg transition-all cursor-pointer p-8 text-center flex flex-col items-center"
           >
             <div className="relative mb-6">
               <img

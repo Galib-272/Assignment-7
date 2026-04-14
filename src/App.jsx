@@ -1,13 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Toaster } from "react-hot-toast";
-
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import FriendDetails from "./components/FriendDetails/FriendDetails";
 import Stats from "./components/Stats/Stats";
 import Timeline from "./components/Timeline/Timeline";
-
 import Home from "./pages/Home/Home";
 import NotFound from "./pages/NotFound/NotFound";
 
@@ -21,7 +19,9 @@ function App() {
       .then((res) => res.json())
       .then((data) => {
         setFriends(data);
-        setLoading(false);
+        setTimeout(() => {
+          setLoading(false);
+        }, 1000);
       })
       .catch((err) => console.error("Error loading data:", err));
   }, []);
