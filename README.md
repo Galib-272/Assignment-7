@@ -20,3 +20,12 @@ Visualize your relationship habits with a dynamic analytics dashboard. See a bre
 
 ### 3. Responsive Timeline & Check-ins
 A dedicated timeline stores your full interaction history. On mobile or desktop, you can perform "Quick Check-ins" and manage your friendship goals through a fully responsive, hamburger-menu-powered interface.
+
+### 🤝 Keep Your Connections Strong
+
+KeenKeeper makes it easy to log interactions, monitor friendship goals, and stay in touch with the people who matter most.
+Explore timelines and analytics that help you maintain meaningful relationships effortlessly.
+
+🌐 **Live App:** https://keenkeeper-ebon.vercel.app
+📂 **GitHub Repository:** https://github.com/Galib-272/Assignment-7.git
+
